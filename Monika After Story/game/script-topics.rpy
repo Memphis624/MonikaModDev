@@ -4790,6 +4790,31 @@ label monika_urgent:
     m 1j "I wish I could see the look on your face right now!"
     m 1k "I'm sure it's adorable~"
     return
+    
+label monika_animal
+    m 2a "My favorite animal is probably a dolphin, or a penguin."
+    m 4b "It's admirable how social they are, and elegant as well."
+    m 1k "Wolves are also a favorite of mine. They all work for the pack and eachother. They waste nothing."
+    m 1a "If only humans worked that same way."
+    m 1n "..."
+    m 2e "Or if you could even call me that, hehe."
+    return
+    
+label monika_your reality
+    m 1e "Oh, that. Did you like my song?"
+    menu:
+        "Yes"
+            m 1b "That makes me happy, [player]!
+        "No"
+            m 3l "Oh... okay."
+            m 1b "That's all right though! It's good that you're honest with me."
+    m 2a "I worked really hard on it, ever since the whole epiphany thing started up."
+    m 1h "It was pretty hard to hold on through that, if I'm being honest, but..."
+    m 2k "We ended up together anyway, didn't we?"
+    m 2e "I'm so happy that you're here, [player]..."
+    return
+   
+      
 
 ##################
 #Incomplete ideas#
@@ -4829,7 +4854,7 @@ label monika_urgent:
 #so i figure i'll stick them right next to the others, if you dont mind
 #---
 
-#favorite animal, not sure what to write however
+#favorite animal, not sure what to write however (Done)
 
 #holidays, probably should be special greetings for another file though
 
